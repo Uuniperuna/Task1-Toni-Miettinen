@@ -1,0 +1,381 @@
+/* Color changes */
+.bg-success {
+    background-color: #3D8618 !important;
+}
+
+.btn-success {
+    background-color: #3D8618 !important;
+    border-color: #3D8618 !important;
+    font-size: 2vh;
+    line-height: 3vh;
+}
+
+.btn-success:hover {
+    background-color: #2C700A !important;
+    border-color: #2C700A !important;
+}
+
+.btn-outline-success {
+  color: snow !important;
+  border-color: #3D8618 !important;
+  background-color: #3D8618 !important;
+}
+
+.btn-outline-success:hover {
+  border-color: #2C700A !important;
+  background-color: #2C700A !important;
+}
+
+.form-control:focus {
+  border-color: rgb(223, 209, 209);
+  box-shadow: none !important;
+}
+
+.form-select:focus {
+  border-color: rgb(223, 209, 209);
+  box-shadow: none !important;
+}
+
+.snow {
+    color: snow !important;
+}
+
+.bg-light {
+  background-color: rgb(241, 241, 241) !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0);
+}
+
+/* Devices with screen min width of 1500px */
+@media screen and (min-width:1500px) {
+  /* Color snow while on top of hero image */
+.hero-caption {
+  color: snow;
+}
+}
+
+a {
+  text-decoration: none;
+ }
+
+
+/* Cards */
+.card-img {
+    border-radius: 1em;
+    max-height: 24vh;
+    filter:brightness(60%);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body {
+    height: 20vh ;
+}
+
+/* Devices with screen max width of 1300px */
+@media screen and (max-width:1300px) {
+  .card-body {
+    min-height: 26vh ;
+}
+  .ps-5.pe-5 {
+    padding-right: 1em !important;
+  }
+
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+  }
+}
+
+/* Devices with screen min width of 1300px */
+@media screen and (min-width:1300px) {
+    .w-50 {
+      width:75% !important;
+    }
+    .row.mx-auto.w-50 {
+      width:65% !important;
+    }
+
+}
+/* Devices with screen max width of 1300px and min width of 575px */
+@media screen and  (max-width:1300px) and (min-width: 575px)
+{
+  .card-img {
+    border-radius: 1em;
+    height: 15vh;
+    filter:brightness(60%);
+  }
+  .w-50 {
+    width: 90% !important;
+  }
+
+}
+
+/* Devices with screen max width of 1000px and min-width of 575px */
+@media screen and  (max-width:1000px) and (min-width: 575px)
+{
+.col-sm-7.footer-item {
+  flex: 0 0 auto;
+  width: 25%;
+}
+.col-sm-1.footer-item {
+  flex: 0 0 auto;
+  width: 14.6666666667%;
+  text-align: right !important;
+}
+
+}
+
+/* Devices with screen min width of 768px */
+@media screen and  (min-width:768px)
+{
+  .sub.row.mx-auto.w-75.mb-5 {
+    width: 50% !important;
+  }
+}
+/* Devices with screen max width of 575px and min width of 450px */
+@media screen and (max-width: 575px) and (min-width:450px)
+{
+  .col-sm-1.mid-item  {
+    flex: 0 0 auto;
+    width: 16.6666666667%;;
+  }
+
+  .col-sm-2.mid-item  {
+    flex: 0 0 auto;
+    width: 16.6666666667%;;
+  }
+}
+
+/* Devices with screen max width of 575px */
+@media screen and (max-width: 575px)
+{
+  .col-sm-4.subs {
+    text-align: center;
+  }
+}
+
+/* Footer */
+a.footer-text:link {color:rgb(221, 221, 221);}
+a.footer-text:visited {color: rgb(221, 221, 221);}
+a.footer-text:hover {color:rgb(221, 221, 221);}
+a.footer-text:active {color: rgb(221, 221, 221);}
+.minheight {min-height: 70vh;}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr {border-top-color:#bbb;opacity:0.5}
+.site-footer hr.small {margin:20px 0}
+.site-footer h6
+{
+  color:rgb(255, 255, 255);
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a {
+  color:#737373;
+  }
+.site-footer a:hover {color:#ffffff;text-decoration:none;
+}
+.footer-links {padding-left:0;list-style:none}
+.footer-links li {display:block
+}
+.footer-links a {color:#c0c0c0}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover {color: rgb(255, 255, 255);text-decoration:none;}
+.footer-links.inline li {display:inline-block}
+.site-footer .social-icons {text-align:right}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#3D8618;
+}
+.copyright-text {margin:0}
+
+/* Devices with screen max width of 991px */
+@media (max-width:991px)
+{
+  .site-footer [class^=col-] {margin-bottom:30px}
+}
+/* Devices with screen max width of 767px */
+@media (max-width:767px)
+{
+  .site-footer {padding-bottom:0}
+  .site-footer .copyright-text,.site-footer .social-icons {text-align:center}
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a {
+  background-color:#eceeef;
+  color:#ffffff;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover {color:#fff;background-color:#29aafe}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover {background-color:#2C700A}
+.social-icons a.twitter:hover {background-color:#2C700A}
+.social-icons a.instagram:hover {background-color:#2C700A}
+
+.fab {
+  padding-top: 10px;
+}
+
+.pt-6 {
+  padding-top: 4rem !important;
+}
+
+@media (max-width:600px) {
+.w-50 {
+  width: 80% !important;
+}
+.w-75 {
+  width: 100% !important;
+}
+
+.logo {
+  padding-left: 1em;
+}
+
+.col-sm-1.a {
+  text-align: center;
+}
+
+.footer-item {
+  text-align: center;
+}
+}
+
+/* Devices with screen min width of 600px */
+@media (max-width:600px)
+{
+  /* On small screens, nulls the value of these classes */
+    .ps-5 {
+        padding-left: 0 !important;
+    }
+    .pe-5 {
+        padding-left: 0 !important;
+    }
+}
+
+/* Devices with screen min width of 1500px */
+
+@media (min-width:1500px)
+{
+  /* Shadow overlay over hero image */
+.hero-overlay {
+    filter:brightness(60%);
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Adds bottom padding to the big title text: "Software fueling digital marketing" */
+.pcpb-5 {
+    padding-bottom: 2em;
+}
+
+/* On hover, numbers get bigger and change color */
+.hov:hover{ 
+  -webkit-transform: scale(1.2);
+  color:#3D8618;
+ }
+
+}
+
+/* Devices with screen max width of 1500px */
+@media (max-width:1500px)
+{
+  /* Adds top padding to the big title text: "Software fueling digital marketing" when it's outside of the hero image */
+  .pcpb-5 {
+    padding: 2em;
+}
+
+}
+
+.mid-item {
+  text-align: center;
+}
+
+/* Underlining navbar links on hover */
+.nav-link {
+  padding: 10px 0px;
+  margin: 0px 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #3D8618;;
+}
+
+.nav-link-grow-up::before {
+  height: 0%;
+  width: 100%;
+  bottom: 0px;
+}
+
+.nav-link-grow-up:hover::before {
+  height: 5px;
+  width: 90%;
+}
